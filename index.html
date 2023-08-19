@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="style-sheet" href="style.css" type="text/css">  
+    <title>Tarea_Clase5</title>
+</head>
+<body>
+    <main class="container">
+        <section class="ejercicio-1">
+            <h1>Calculadora de IMC</h1>
+            <form id="IMC">
+                <label for="peso">Peso (kg):</label>
+                <input type="number" step="0.01" id="peso" name="peso" required><br><br>
+                
+                <label for="altura">Altura (m):</label>
+                <input type="number" step="0.01" id="altura" name="altura" required><br><br>
+                
+                <input id="calcular" type="submit" value="Calcular">
+            </form>
+            
+            <h2>Resultado:</h2>
+            <p id="resultado"></p>
+            <p id="resultadotxt"></p>
+        </section>
+        <section class="ejercicio-2">
+            <h1>numero de Likes</h1>
+            <label for="N-likes">Ingresa el Numero de Likes</label>
+            <input type="number" step="0.01" id="n-likes" name="likes" required>
+            <button id="btn-like">calcular</button>
+            <h1>El nuemro de Likes es:</h1>
+            <p id="resultadolikes"></p>
+        
+        </section>
+        <section class="ejercicio-3">
+            <h1>Validacion de contraseña</h1>
+            <form id="validacion">
+                <label for="user">Ingrese su Usuario</label>
+                <input type="Text" step="0.01" id="usuario" name="usuario"  required><br><br>
+                
+                <label for="password">Ingrese su contraseña</label>
+                <input type="password" step="0.01" id="password" name="password" maxlength="8" required><br><br>
+                <p id="message" style="color: red;"></p>
+
+                <input id="ingresar" type="submit" value="ingresar">
+            </form>
+        </section>
+        <section class="ejercicio-4">
+            <h1>Calculo Impuestos</h1>
+            <label for="edad">Edad</label>
+            <input type="number" id="edad">
+            <label for="ingresos">Ingresos</label>
+            <input type="number" id="ingresos">
+            <button id="btn-calcular">Calcular</button>
+            <p id="result"></p>
+        </section>
+        <section class="ejercicio-5"></section>
+        <section class="ejercicio-6"></section>
+        <section class="ejercicio-7"></section>
+        <section class="ejercicio-8"></section>
+        <section class="ejercicio-9"></section>
+        <section class="ejercicio-10"></section>
+
+    </main>
+    <script src="main.js" ></script>
+</body>
+</html>
